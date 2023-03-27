@@ -1,0 +1,22 @@
+#home{
+    background-color: #1ABC9C;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+h1{
+    font-size: 4rem;
+}
+.custom-line{
+    width: 7rem;
+    height: 0.25rem;
+    background-color:#fff;
+    border-radius: 1rem;
+    z-index: 10;
+}
+p{
+    font-size: 1.5rem;
+}

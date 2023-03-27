@@ -1,0 +1,49 @@
+<section id="contact">
+    <div class="container">
+        <h2 class="text-center text-uppercase  mb-3">CONTACT ME</h2>
+        <div class=" d-flex justify-content-center align-items-center mb-3">
+            <div class="custom-line"></div>
+            <div class="custom-icon"> <i class="fa fa-star fa-2xl mx-2"></i></div>
+            <div class="custom-line"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="control-group py-3">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="name"required="required" placeholder="Name">
+                        <label for="name">Name</label>
+                      </div>
+                    </div>
+
+                      <div class="control-group py-3">
+
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="email" placeholder="email">
+                        <label for="email">Email Address</label>
+                      </div>
+                    </div>
+
+                      <div class="control-group py-3">
+
+                      <div class="form-floating ">
+                        <input type="number" class="form-control" id="number" placeholder="Phone Number">
+                        <label for="floatingPassword">Phone Number</label>
+                      </div>
+                    </div>
+
+                   
+                    <div class="control-group py-3">
+
+                        <div class="form-floating">
+                          <textarea type="text" class="form-control" id="Message" placeholder="Message"></textarea>
+                          <label  for="Message">Message</label>
+                        </div>
+                      </div>
+                    <button class="btn  btn-lg my-3 mb-5 " >Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
