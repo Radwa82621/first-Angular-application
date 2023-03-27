@@ -18,6 +18,6 @@ export class PortfolioComponent implements DoCheck {
     
   }
   open() {
-		const modalRef = this.modalService.open(PortfolioModalComponent,{centered:true});
+		const modalRef = this.modalService.open(PortfolioModalComponent,{centered:true ,size: 'lg' });
 	}
 }
